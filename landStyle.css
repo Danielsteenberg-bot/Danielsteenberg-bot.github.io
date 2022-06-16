@@ -100,8 +100,9 @@ body {
     .dropdown-toggle::after{display: none;}
 }
 
-
 /* NAVBAR END */
+
+
 h1 {
   margin: 0;
   color: white;
@@ -1010,7 +1011,7 @@ button:hover .button-text {
       }
       
       .undersideFoot{
-        padding-top: 2rem;
+        padding-top: 1rem;
       }
       
       .bottom-footer .midFoot{
@@ -1082,6 +1083,11 @@ button:hover .button-text {
     display: none;
   }
 
+  /*  */
+
+  input{
+    height: 30px;
+  }
 
   .contact-grid {
     width: 100%;
@@ -1201,10 +1207,12 @@ button:hover .button-text {
 
   .preFoot h4 {
     font-size: 10vw;
+    display: block;
   }
 
+
   .preFoot p {
-    font-size: 4vw;
+    display: none;
   }
 
   .form-group{
@@ -1225,10 +1233,12 @@ button:hover .button-text {
   }
   .bottom-footer{
     margin-left: 0;
+    height: 50%;
 
   }
   .midFoot{
     padding-right: 5%;
+    padding-left: 5%;
   }
 
   .arrow {
@@ -1242,27 +1252,17 @@ button:hover .button-text {
     margin-left: 2%;
   }
 
+  .foot-fade{
+    display: block;
+  }
+
   /* Footer mobile */
+/* Footer mobile */
 
-  .preFoot p{
-    font-size: 4.5vw;
-  }
-
-  .preP{
-    line-height: 130%;
-    margin-top: 0.5rem;
-  }
 
 .bottom-footer .midFoot{
   flex-direction: column-reverse;
 }
-
-.bottom-footer{
-  height: 35vh;
-  flex-direction: column;
-
-}
-
 
 .leftFoot{
   width: 100%;
@@ -1278,19 +1278,12 @@ button:hover .button-text {
 }
 
 .bottom-footer .midFoot h2{
-  padding-top: 2rem;
   font-size: 4vw !important;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0;
-  padding-bottom: 1rem;
-
-}
-
-.cvrNummer h2{
-  font-size: 4vw;
 }
 
 .rightFoot{
@@ -1335,23 +1328,17 @@ padding-left: 35px;
   align-items: center;
 }
 
-.foot-fade{
-  display: block;
-}
-
 
 
 .footINFO{
   text-align: center;
 }
 
-.copyright-text-desktop{
-  margin-top: 5%;
+.copyright-text{
   font-size: 2vw;
 }
 
 /* Footer Mobile Done */
-
 }
 
 

@@ -7,69 +7,53 @@
     box-sizing: border-box;
     font-family: 'Abel';
 }
-
-/* Nav bar start */
-
 .navbar-brand{
-    font-size: 2rem;
+  margin-left: 2rem ;
 }
-.navbar-brand{
-  	margin-left: 2rem ;
-}
-
-
 
 
 .nav-link{
-  font-size: 1.8vw;
-  font-family: 'Abel';
-
+font-size: 1.8vw;
+font-family: 'Abel', sans-serif;
 }
 .nav-some{
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  font-size: 2rem;
-  color: #000000;
+text-decoration: none;
+list-style: none;
+display: flex;
+justify-content: space-between;
+font-size: 2rem;
+color: #000000;
 }
 
 .fab{
-  color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
 }
 
 .fa:hover{
-  transition: all .2s ease-in-out;
-  transform: scale(1.1);
+transition: all .2s ease-in-out;
+transform: scale(1.1);
 }
 .nav-link:hover{
-  transition: all .2s ease-in-out;
-  transform: scale(1.1);
-  text-decoration: underline 2px black;
-
+transition: all .2s ease-in-out;
+transform: scale(1.1);
 }
 
 .iconstyle{
-  color: black !important;
-
+color: black !important;
 }
 .instagram{
-  color: black;
-  font-size: 2rem;
-}
-
-.facebook{
-    font-size: 2rem;
+color: black;
 }
 
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-    .dropdown-toggle::after{display: none;}
+.navbar .nav-item .dropdown-menu{ display: none; }
+.navbar .nav-item:hover .dropdown-menu{ display: block; }
+.navbar .nav-item .dropdown-menu{ margin-top:0; }
+  .dropdown-toggle::after{display: none;}
 }
 
-/* Nav slut */
+
+/* NAVBAR END */
 
 /* Footer */
 
