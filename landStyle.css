@@ -1093,6 +1093,9 @@ button:hover .button-text {
 }
 
 
+
+
+
 @media screen and (max-width: 500px){
 
 
@@ -1103,7 +1106,7 @@ button:hover .button-text {
 
 
   .someTXT-container{
-    height: 60%;
+    height: 40%;
   }
 
   input{
@@ -1311,7 +1314,7 @@ button:hover .button-text {
   flex-direction: column;
   justify-content: center;
   padding: 0;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .rightFoot{
@@ -1361,7 +1364,6 @@ padding-left: 35px;
 
 .footINFO{
   text-align: center;
-  padding-top: 10px;
 }
 
 .copyright-text-desktop{
@@ -1538,4 +1540,10 @@ button:hover .button-text {
 
 /* Check mark loader efter afsendelse DONE */
 
+@media screen and (max-width: 375px){
 
+
+  .someTXT-container{
+    height: 60%;
+  }
+}
