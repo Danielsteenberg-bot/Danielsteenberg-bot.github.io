@@ -623,7 +623,11 @@ font-size: 2rem;
   }
 
   .nav-link{
-    font-size: 4vw;
+    font-size: 7vw;
+  }
+
+  nav a{
+    font-size: 1.3rem;
   }
 
   .about-head{
@@ -642,16 +646,22 @@ font-size: 2rem;
   }
 
   .txt-column-heading{
-    font-size: 1.8rem;
+    font-size: 3rem;
+  }
+
+  .txt-column-breading{
+    font-size: 1.5rem;
   }
 
   .about-head-img{
     width: 100%;
+    margin: 0;
 
   }
   .about-head-img img{
     width: 100%;
     margin: 0;
+    margin-left: 0;
 
   }
 

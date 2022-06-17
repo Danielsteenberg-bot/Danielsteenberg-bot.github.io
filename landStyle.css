@@ -187,31 +187,36 @@ html {
   -webkit-animation: navMove 0.6s;
 }
 
-.styd-background-color{
-  background-color: white;
-}
 
 /*
   Vores STYD specifikke billeder.
   ----- 
 */
+
+
+
+
 .image-bryllup {
   background: url('assets/img/scroll/scrollBryllup.webp');
+  z-index: 11111;
+  
 }
 
-.content-PRE{
-  background-color: #000000;
-}
 
 .image-erhverv {
   background: url('assets/img/scroll/scrollErhverv.webp');
+  z-index: 11111;
 } 
 
 .image-event {
   background: url('assets/img/scroll/eventScroll.webp'); 
+  z-index: 11111;
+
 } 
 .image-vid {
   background: url('assets/img/scroll/scrollVid.webp'); 
+  z-index: 11111;
+
 } 
 
 /* 
@@ -223,6 +228,7 @@ html {
   width: 100%;
   height: 100%;
   position: fixed;
+
 }
 
 .styd-image {
@@ -230,11 +236,10 @@ html {
   height: 100%;
   opacity: 0;
   position: absolute; 
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.7s ease-in-out;
   background-size: cover;
   background-repeat:  no-repeat;
   background-position: center center;
-  background-color: black;
 }
 
 .styd-image.styd-image-active {
@@ -243,7 +248,17 @@ html {
 
 .styd {
   height: 100vh;
+
 }
+
+
+/* For mørkere fade */
+/* #SECTION-4, #SECTION-3, #SECTION-5{
+  background: black;
+} */
+
+/* Mørkere fade */
+
 
 .styd.avoid {
   pointer-events: none;
@@ -386,6 +401,8 @@ height: 100vh;
   justify-content: space-evenly;
   top: 50%;
 }
+
+
 
 .inputHead{
   text-align: center;
@@ -1083,7 +1100,9 @@ button:hover .button-text {
     display: none;
   }
 
-  /*  */
+  .someTXT-container{
+    height: 90%;
+  }
 
   input{
     height: 30px;
@@ -1130,7 +1149,7 @@ button:hover .button-text {
   }
 
   .someTXT h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0;
     text-align: left;
     padding-left: 0.5rem;
@@ -1170,7 +1189,7 @@ button:hover .button-text {
 
   .styd-content h1{
     overflow: hidden;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     padding: 0;
     width: 100%;
   }
@@ -1242,7 +1261,7 @@ button:hover .button-text {
   }
 
   .arrow {
-    bottom: 0%;
+    bottom: -40%;
     font-size: 2vw;
   }
 
@@ -1250,6 +1269,7 @@ button:hover .button-text {
     padding-top: 0;
     padding: 0;
     margin-left: 2%;
+    height: 100%;
   }
 
   .foot-fade{
@@ -1284,6 +1304,7 @@ button:hover .button-text {
   flex-direction: column;
   justify-content: center;
   padding: 0;
+  padding-top: 10px;
 }
 
 .rightFoot{
@@ -1291,6 +1312,7 @@ button:hover .button-text {
   justify-content: center;
   flex-direction: row;
   color: white;
+  padding: 0;
   
 }
 
@@ -1332,9 +1354,10 @@ padding-left: 35px;
 
 .footINFO{
   text-align: center;
+  padding-top: 10px;
 }
 
-.copyright-text{
+.copyright-text-desktop{
   font-size: 2vw;
 }
 

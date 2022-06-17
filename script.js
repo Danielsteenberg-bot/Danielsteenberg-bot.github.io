@@ -3,6 +3,7 @@
 STYD.init = () => {
 
     const stydElements = document.querySelectorAll('.styd');
+    const stydElementsBG = document.querySelectorAll('.styd');
     const stydLinkElements = document.querySelectorAll('.styd-link');
     const stydLink = document.querySelector('.placering');
     const footerFade = document.querySelector('.footer');
@@ -16,7 +17,7 @@ STYD.init = () => {
     const lastSection = document.querySelector('#SECTION-5');
     const firstSection = document.querySelector('.responseLAND');
     const arrow = document.querySelector('.arrow');
-    const form1 = document.querySelector('#contact');
+    const stydBG = document.querySelector('.styd-bg')
 
 
 
@@ -35,6 +36,7 @@ STYD.init = () => {
                    
             if(styd.dataset.stydImage === id) {
                 styd.classList.add('styd-image-active');
+
                 
             } else {
                 styd.classList.remove('styd-image-active');
@@ -72,6 +74,10 @@ STYD.init = () => {
             nav.style.display = "none";
             firstSection.style.display = "none";
             arrow.style.display = "none";
+            /* For mørkere fade
+            stydBG.style.background = "black";
+            firstSection.style.background = "black";
+             */
             
         }
 
@@ -82,7 +88,11 @@ STYD.init = () => {
             nav.style.display = "block";
             firstSection.style.display = "block";
             arrow.style.display = "block";
-        }
+
+/*          For mørkere fade    
+            stydBG.style.background ="white";
+            firstSection.style.background ="white";
+ */        }
         
         if(scrollPosition >= lastSection.offsetTop){
             footerFade.classList.add('foot-fade');

@@ -1060,6 +1060,21 @@ grid-area: grid-item2B;
 @media screen and (max-width: 500px){
 
 
+  /* NAV */
+nav{
+  z-index: 11111;
+}
+
+.nav-link{
+  font-size: 7vw;
+}
+
+nav a{
+  font-size: 1.3rem;
+}
+
+/* NAV DONE  */
+
 /* Footer mobile */
 
 
@@ -1150,7 +1165,7 @@ padding-left: 35px;
   }
   
   .nav-link{
-  font-size: 5vw !important;
+  font-size: 7vw !important;
     text-align: center;
   }
   
