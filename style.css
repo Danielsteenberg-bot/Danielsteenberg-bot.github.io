@@ -946,20 +946,19 @@ grid-area: grid-item2B;
   }
   
   .erhvervIMG{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
 
   .erhvervIMG img{
-    width: 90%;
-    padding-left: 5rem;
+    width: 100%;
 
   }
 
   .bryllupIMG{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -970,7 +969,7 @@ grid-area: grid-item2B;
   }
 
   .eventIMG{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1656,13 +1655,13 @@ margin-left: 0;
 }
 
 .bryllupIMG{
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 .bryllupIMG{
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1673,7 +1672,7 @@ margin-left: 0;
 }
 
 .eventIMG{
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
