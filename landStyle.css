@@ -1100,8 +1100,10 @@ button:hover .button-text {
     display: none;
   }
 
+
+
   .someTXT-container{
-    height: 90%;
+    height: 40%;
   }
 
   input{
@@ -1154,6 +1156,11 @@ button:hover .button-text {
     text-align: left;
     padding-left: 0.5rem;
     width: 100%;
+  }
+
+  .responseLAND{
+    position: relative;
+    top: 15%;
   }
   
   .landVidMobile{
@@ -1261,7 +1268,7 @@ button:hover .button-text {
   }
 
   .arrow {
-    bottom: -40%;
+    bottom: -10%;
     font-size: 2vw;
   }
 
