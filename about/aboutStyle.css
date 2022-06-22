@@ -124,6 +124,11 @@
     padding: 1rem;
   }
 
+  .cocioKnap:hover{
+    transform: scale(0.8);
+  }
+
+
 .cocioKnap{
 border-radius: 300px;
 height: 100px;
@@ -132,6 +137,7 @@ background-color: white;
 color: black;
 border: none;
 text-decoration: none;
+transition: all 50ms ease-in-out;
 }
 
 .cocioKnap a {
