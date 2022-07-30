@@ -253,11 +253,16 @@ html {
 
 
 /* For mørkere fade */
-/* #SECTION-4, #SECTION-3, #SECTION-5{
-  background: black;
-} */
 
-/* Mørkere fade */
+#SECTION-4, #SECTION-3, #SECTION-5{
+  background: black;
+} 
+
+
+.last-bg{
+  background: #000;
+  z-index: -1;
+}
 
 
 .styd.avoid {
@@ -1210,6 +1215,11 @@ button:hover .button-text {
     justify-content: center;
     align-items: center;
     margin-left: 2.5%;
+    margin-top: 50px;
+  }
+
+  input{
+    height: 40px;
   }
 
   .copyright-text{
@@ -1219,6 +1229,8 @@ button:hover .button-text {
   .footer img{
     width: 70%;
   }
+
+
 
   .preFoot h4{
     display: none;

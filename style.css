@@ -202,6 +202,7 @@ button:hover .button-text {
 .header-container{
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .headTXT{
@@ -300,7 +301,7 @@ button:hover .button-text {
 }
 
 .eventbæ{
-  width: 50%;
+  width: 100%;
   opacity: .9;
 }
 
@@ -361,7 +362,7 @@ font-family: AUREG !important;
 .event{
   border-radius: 5px;
   box-shadow: rgb(38, 57, 77) 0px 10px 15px -5px;
-  width: 100%;
+  width:50%;
   max-height: 100%;
   border: 1px solid black;
   overflow: hidden;
@@ -933,6 +934,7 @@ grid-area: grid-item2B;
 
   .headTXT{
     width: 500px;
+    overflow: hidden;
   }
 
   .navbar img{
@@ -958,14 +960,14 @@ grid-area: grid-item2B;
   }
 
   .bryllupIMG{
-    width: 100%;
+    width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
 
   .bryllupIMG img{
-    width: 100%;
+    width: 50%;
   }
 
   .eventIMG{
@@ -980,7 +982,7 @@ grid-area: grid-item2B;
   }
 
   .event1{
-    width: 100%;
+    width: 50%;
   } 
 
   .content-event{
@@ -1059,6 +1061,7 @@ grid-area: grid-item2B;
 @media screen and (max-width: 500px){
 
 
+
   /* NAV */
 nav{
   z-index: 11111;
@@ -1118,6 +1121,7 @@ nav a{
 .undersideFoot .undersideFIRST h2{
   font-size: 3vw !important;
   padding-right: 35px;
+  overflow: hidden;
 }
 
 .undersideFoot .undersideSECOUND h2{
@@ -1127,6 +1131,8 @@ font-size: 3vw !important;
 .undersideFoot .undersideTHRID h2{
 font-size: 3vw !important; 
 padding-left: 35px;
+overflow: hidden;
+
 }
 
 .nav-some{
@@ -1181,12 +1187,14 @@ margin-left: 0;
   }
   
   .headTXT{
-    width: 400px;
+    width: 100%;
     font-size: 9vw;
+    overflow: hidden;
   }
   
   .headTXT1{
   font-size: 9vw;
+  overflow: hidden;
  }
 
   .navbar-brand.nav-some{

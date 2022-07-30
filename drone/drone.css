@@ -211,10 +211,10 @@ color: black;
   .content-text{
     padding-left: 2%;
     padding-right: 2%;
-    height: 40vh;
+    height: 50vh;
     background-color: white;
     position: absolute;
-    top: 90%;
+    top: 100%;
     width: 100%;
   }
 
