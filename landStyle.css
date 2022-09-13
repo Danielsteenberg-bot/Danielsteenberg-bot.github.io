@@ -236,7 +236,7 @@ html {
   height: 100%;
   opacity: 0;
   position: absolute; 
-  transition: opacity 0.7s ease-in-out;
+  transition: opacity 0.5s ease-in;
   background-size: cover;
   background-repeat:  no-repeat;
   background-position: center center;
@@ -254,15 +254,6 @@ html {
 
 /* For mørkere fade */
 
-#SECTION-4, #SECTION-3, #SECTION-5{
-  background: black;
-} 
-
-
-.last-bg{
-  background: #000;
-  z-index: -1;
-}
 
 
 .styd.avoid {
@@ -442,7 +433,7 @@ height: 100vh;
   width: 90%;
   color: white;
   font-family: 'Abel', sans-serif;
-    line-height: 160%;
+  line-height: 160%;
 }
 
 .form {
@@ -1094,6 +1085,25 @@ button:hover .button-text {
       }
     
       /* Footer Ipad Done */
+
+
+      /* Ipad NAV */
+
+
+.nav-link{
+  font-size: 7vw !important;
+    text-align: center;
+  }
+
+  #dropdown-item{
+    font-size: 8vw;
+  }
+
+  #text{
+    text-align: center;
+  }
+
+      /* IPAD NAV */
 
 }
 

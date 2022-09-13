@@ -73,8 +73,6 @@ STYD.init = () => {
             nav.style.display = "none";
             firstSection.style.display = "none";
             arrow.style.display = "none";
-            stydBG.style.background = "black";
-            firstSection.style.background = "black";
             
         }
 
@@ -85,8 +83,6 @@ STYD.init = () => {
             nav.style.display = "block";
             firstSection.style.display = "block";
             arrow.style.display = "block";
-            stydBG.style.background ="white";
-            firstSection.style.background ="white";
         }
         
         if(scrollPosition >= lastSection.offsetTop){

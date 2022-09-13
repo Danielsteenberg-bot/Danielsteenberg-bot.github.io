@@ -494,7 +494,7 @@ font-size: 2rem;
 /* Responsive IPAD */
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
 
   .navbar img{
     margin-left: 0;
@@ -507,6 +507,7 @@ font-size: 2rem;
   .about-head-img{
     width: 100%;
     margin-bottom: 0;
+    margin-left: 0;
   }
 
   .about-head-img img{
@@ -541,10 +542,12 @@ font-size: 2rem;
   
   .leftFoot{
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   .footIMG{
-    width: 100%;
+    width: 80%;
   }
   
   .undersideFoot{
@@ -556,6 +559,9 @@ font-size: 2rem;
     align-items: center;
   }
 
+  h2{
+    font-size: 3vw;
+  }
   
   .bottom-footer .midFoot h2{
     padding-top: 2%;
@@ -581,15 +587,15 @@ font-size: 2rem;
   }
   
   .undersideFoot .undersideFIRST h2{
-    font-size: 2vw !important;
+    font-size: 3vw !important;
     padding-right: 35px;
   }
   .undersideFoot .undersideSECOUND h2{
-  font-size: 2vw !important;
+  font-size: 3vw !important;
   
   } 
   .undersideFoot .undersideTHRID h2{
-  font-size: 2vw !important; 
+  font-size: 3vw !important; 
   }
   
   .bottom-footer{
@@ -605,9 +611,13 @@ font-size: 2rem;
   }
 
   .copyright-text{
-    font-size: 0.7rem;
+    font-size: 1.2rem;
   }
 
+
+  .cocioCases{
+    font-size: 10vw;
+  }
 
 
   }
