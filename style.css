@@ -859,6 +859,20 @@ grid-area: grid-item2B;
 
 @media screen and (max-width: 800px){
 
+
+  a#navbarDropdownMenuLink{
+        font-size: 5vw !important;
+  }
+
+  a.nav-link.active{
+    font-size: 5vw !important;
+  }
+
+
+  .nav-link:hover{
+    transform: scale(1);
+  }
+
   /* Foot IPAD */
   
   .leftFoot{
@@ -1058,6 +1072,7 @@ grid-area: grid-item2B;
   display:none;
   }
 }
+/* Footer mobile */
 @media screen and (max-width: 500px){
 
 
@@ -1077,7 +1092,6 @@ nav a{
 
 /* NAV DONE  */
 
-/* Footer mobile */
 
 
 .bottom-footer .midFoot{

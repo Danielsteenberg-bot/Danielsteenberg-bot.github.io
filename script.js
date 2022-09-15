@@ -199,3 +199,14 @@ const sendToMail = (e) => {
 STYD.init();
 
 formular.addEventListener("submit", sendToMail)
+
+
+const nav = document.querySelector(".show")
+
+const navSoMe = document.querySelector(".navbar-some")
+
+if (nav.classList.contains(".show")) {
+    navSoMe.style.display = "none";
+} else {
+    navSoMe.style.display = "block";
+}
